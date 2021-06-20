@@ -8,7 +8,7 @@ const StyledNav = styled.nav`
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   margin: 2rem 0;
 `;
 
@@ -21,4 +21,13 @@ const NavUl = styled.ul`
   padding: 0;
 `;
 
-export {StyledNav, NavUl};
+const StyledNavLink = styled.li`
+  color: black;
+  &:hover{
+    transition: 0.3s;
+    transform: translateY(-3.5px);
+    filter: drop-shadow(2px 2px #d3d3d3);
+  }
+`;
+
+export {StyledNav, NavUl, StyledNavLink};
