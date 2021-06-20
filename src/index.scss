@@ -8,7 +8,14 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  background: linear-gradient( to right bottom, #ffffff 10%, rgb(253, 147, 147));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-size: 1.6rem;  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,13 +35,24 @@ body {
 
 #root {
   width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .hover-over:hover {
   transition: .2s;
   transform: scale(1.03) translateY(-5px);
+}
+
+footer{
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+  padding-right: 5rem;
+  width: 100%;
+  text-align: right;
 }

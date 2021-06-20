@@ -14,7 +14,7 @@ const linkStyles = {
 }
 
 const activeLinkStyles = {
-  color: "rgb(168,21,113)",
+  color: "#d41e56",
   textDecoration: "overline"
 };
 
@@ -29,7 +29,6 @@ const Nav = () => {
       </NavUl>
       <NavUl style={ {width: "65%"} }>
         <li><NavLink style={linkStyles} activeStyle={activeLinkStyles} exact to="/">Home</NavLink></li>
-        <li><NavLink style={linkStyles} activeStyle={activeLinkStyles} exact to="/about">About</NavLink></li>
         <li><NavLink style={linkStyles} activeStyle={activeLinkStyles} exact to="/projects">Projects</NavLink></li>
         <li><NavLink style={linkStyles} activeStyle={activeLinkStyles} exact to="/resume">Resume</NavLink></li>
         <li><NavLink style={linkStyles} activeStyle={activeLinkStyles} exact to="/contact">Contact</NavLink></li>

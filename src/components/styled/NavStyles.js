@@ -6,9 +6,8 @@ const StyledNav = styled.nav`
   align-items: center;
   justify-content: space-between;
   font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  font-size: 2.5rem;
-  letter-spacing: 0.08em;
+  font-size: 2.3rem;
+  letter-spacing: 0.1em;
   margin: 2rem 0;
 `;
 

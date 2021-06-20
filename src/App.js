@@ -17,12 +17,11 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path="/" render={props => <Home /> } />
-          <Route exact path="/about" render={props => <About /> } />
           <Route exact path="/projects" render={props => <Projects /> } />
-          <Route exact path="/resume" render={props => <Resume /> } />
+          <Route exact path="/about" render={props => <About /> } />
           <Route exact path="/contact" render={props => <Contact /> } />
         </Switch>
-      </Router>    
+      </Router>  
     </>
   );
 }
