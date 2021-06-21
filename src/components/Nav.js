@@ -25,7 +25,7 @@ const Nav = () => {
         <li><StyledNavLink href="https://www.linkedin.com/in/ana-lastoviria/"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></StyledNavLink></li>
         <li><StyledNavLink href="https://twitter.com/ana_lastoviria"><FontAwesomeIcon icon={['fab', 'twitter']} /></StyledNavLink></li>
         <li><StyledNavLink href="https://github.com/chivoi"><FontAwesomeIcon icon={['fab', 'github']} /></StyledNavLink></li>
-        <li><StyledNavLink href="mailto:ana.lastoviria@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></StyledNavLink></li>
+        {/* <li><StyledNavLink href="mailto:ana.lastoviria@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></StyledNavLink></li> */}
       </NavUl>
       <NavUl style={ {width: "65%"} }>
         <li><NavLink style={linkStyles} activeStyle={activeLinkStyles} exact to="/">Home</NavLink></li>
