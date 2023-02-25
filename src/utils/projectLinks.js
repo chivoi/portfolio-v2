@@ -1,18 +1,25 @@
 import cassandra from "../assets/cassandra.png";
-import lineup from "../assets/lineup.jpg";
+import rosterRosie from "../assets/rosterRosie.jpg";
 import vibe from "../assets/Vibe.jpg";
 import portfoliov1 from "../assets/portfolio.jpg";
+import toyRobot from "../assets/toyRobot.jpg";
 
 export const projectLinks = {
+  toyRobot: {
+    site: "https://little-toy-robot.netlify.app/",
+    repo: "https://github.com/chivoi/toy-robot",
+    img: toyRobot
+
+  },
   vibe: {
     site: "https://its-a-vibe.netlify.app/",
     repo: "https://github.com/its-a-vibe/vibe",
     img: vibe
   },
-  lineup: {
-    site: "http://complete-your-lineup.herokuapp.com/",
-    repo: "https://github.com/chivoi/lineup",
-    img: lineup
+  rosterRosie: {
+    site: "",
+    repo: "https://github.com/chivoi/roster-rosie",
+    img: rosterRosie
   },
   cassandra: {
     site: "",
@@ -23,10 +30,5 @@ export const projectLinks = {
     site: "https://ana-lastoviria.netlify.app/",
     repo: "https://github.com/chivoi/portfolio",
     img: portfoliov1
-  },
-  uncover: {
-    site: "https://uncover-eventfinder.herokuapp.com/",
-    repo: "https://github.com/CA-T3-Hackathon-2/UnCover",
-    img: ""
   }
 }

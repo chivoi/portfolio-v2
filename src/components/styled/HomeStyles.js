@@ -13,8 +13,6 @@ const HeroDiv = styled.div`
 `;
 
 const HeroImg = styled.img`
-  width: 300px;
-  height: 300px;
   overflow: hidden;
   border-radius: 50%;
   margin-bottom: 2rem;
